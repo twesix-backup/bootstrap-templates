@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/slider.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src=""></script>
+    <title>首页</title>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">育苗支教</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">nav 1</a>
+                </li>
+                <li>
+                    <a href="#">nav 2</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">ropdown 1<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">item 1-1</a></li>
+                        <li><a href="#">item 1-2</a></li>
+                        <li><a href="#">item 1-3</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">item 2-1</a></li>
+                        <li><a href="#">item 2-2</a></li>
+                        <li><a href="#">item 2-3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">nav 3</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">dropdown 2 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">item 1-1</a></li>
+                        <li><a href="#">item 1-2</a></li>
+                        <li><a href="#">item 1-3</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">item 2-1</a></li>
+                        <li><a href="#">item 2-2</a></li>
+                        <li><a href="#">item 2-3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="slider-wrapper">
+    <div class="carousel slide" id="carousel" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li class="active" data-target="#carousel" data-slide-to="0"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="../resources/1.jpg" alt="img">
+            </div>
+            <div class="item">
+                <img src="../resources/2.jpg" alt="img">
+            </div>
+            <div class="item">
+                <img src="../resources/3.jpg" alt="img">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
